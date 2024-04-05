@@ -36,6 +36,6 @@ variable "private_subnet_tags" {
 }
 
 variable "public_subnet_tags" {
-  description = "Private subnet tags."
+  description = "Public subnet tags."
   type        = map(any)
 }
